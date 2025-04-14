@@ -110,7 +110,7 @@ target_link_libraries(hipsolver-test PRIVATE
   ${LAPACK_LIBRARIES}
   hipsolver-common
   clients-common
-  GTest::GTest
+  GTest::gtest
   Threads::Threads
   roc::hipsolver
 )
